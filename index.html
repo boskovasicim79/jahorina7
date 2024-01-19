@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/92df5252fe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title> Apartmani Aleksandra Jahorina</title>
+</head>
+
+<body>
+
+    <div class="snow_wrap">
+        <div class="snow"> </div>
+        <header>
+            <!--<a href="#"><img src="Mrm_Logo.png" class="logo2"></a>-->
+
+            <div class="meni_lijevo">
+                <a href="index.html"><img class="logo" src="img/Mrm_Logo.png"></a>
+                <div class="no_desk">
+
+                </div>
+                <div class="toggle" onclick="toggleMenu();"></div>
+                <ul class="menu">
+                    <li><a class="z_linija" href="index.html" onclick="toggleMenu();">POČETNA</a></li>
+                    <li><a href="#section3" onclick="toggleMenu();">POGODNOSTI</a></li>
+                    <li><a href="#kontakt" onclick="toggleMenu();">KONTAKT</a></li>
+                    <li><a href="o_nama.html" onclick="toggleMenu();">O NAMA</a></li>
+                </ul>
+            </div>
+            <div class="contact meni_desno">
+                <i class="fa-solid fa-phone"></i>
+                <p><a href="tel:+38765708766">+387 65 708 766</a></p>
+            </div>
+        </header>
+    </div>
+
+    <section class="section2">
+        <div class="sadrzaj_desno">
+            <h1>INFORMACIJE</h1>
+            <p><span>Prodaja Apartmana Jahorina - Vila ALEKSANDRA </span><br>
+              14 apartmana + poslovni prostor 
+            </p>
+            <p>Nalazimo se na jugozapadnoj strani sportsko rekreativnog 
+                kompleksa na samo <span>100 metara od žičare Trnovo</span> 
+            </p>
+            <p>Radovi su u toku a završetak radova planiran je do <span> juna 2024. godine </span>
+            </p>
+            <a href="#kontakt" class="crveni_kontakt">KONTAKT</a>
+        </div>
+        <div class="sadrzaj_lijevo">
+            <img src="img/JahorinaMobZicara.jpg" alt="">
+           <!--<div class="overlay"></div>--> 
+        </div>
+    </section>
+
+    <section class="section3" id="section3">
+        <div class="naslov_sekcija3">
+            <h1>POGODNOSTI</h1>
+        </div>
+        <div class="tekst_sekcija3">
+            <p>
+                U sklopu našeg objekta nalaziće se i dodatni sadržaj poput:
+            </p>
+        </div>
+
+        <div class="sadrzaj_sekcija3">
+            <div class="sadrzaj1_sekcija3">
+                <div class="sadrzaj1_sekcija3_lijevo">
+                <img src="img/sadrzaj/skiing.png">
+            </div>
+            <div class="sadrzaj1_sekcija3_desno">
+                <h2>SKI RENTAL</h2>
+                <p>30m2 u prizemlju našeg objekta koji će vam itekako značiti ukoliko iznajmljujete opremu</p>
+            </div>
+            </div>
+            <div class="sadrzaj1_sekcija3">
+                <div class="sadrzaj1_sekcija3_lijevo">
+                <img src="img/sadrzaj/fork.png">
+            </div>
+                <div class="sadrzaj1_sekcija3_desno">
+                <h2>RESTORAN</h2>
+                <p>Kapaciteta 250m2 sa tradicionalnom kuhinjom olakšaće vaš odmor</p>
+            </div>
+            </div>
+            <div class="sadrzaj1_sekcija3">
+                <div class="sadrzaj1_sekcija3_lijevo">
+                <img src="img/sadrzaj/elevator.png">
+            </div>
+                <div class="sadrzaj1_sekcija3_desno">
+                <h2>LIFT</h2>
+                <p>Nosivost do 8 osobe kao neizostavan dio svakog ozbiljnog objekta</p>
+            </div>
+            </div>
+            <div class="sadrzaj1_sekcija3">
+                <div class="sadrzaj1_sekcija3_lijevo">
+                <img src="img/sadrzaj/ski-lift.png">
+            </div>
+                <div class="sadrzaj1_sekcija3_desno">
+                <h2>ŽIČARA TRNOVO</h2>
+                <p>Na samo 70 metara udaljenosti od žičare koja vodi do glavne staze</p>
+            </div>
+            </div>
+        </div>
+      
+    </section>
+
+    <section class="section4">
+        <div class="naslov_sekcija3">
+            <h1>RASPOLOŽIVI APARTMANI</h1><br>
+            <h1><span>10 </span>/ 14</h1>
+        </div>
+        <a href="Raspolozivi_apartmani.pdf" target="_blank" class="crveni_kontakt"><i class="fa-regular fa-file"></i> DOWNLOAD PDF</a>
+
+    </section>
+
+<!--
+        <section class="section5">
+        <div class="naslov_sekcija3">
+            <h1>GALERIJA</h1>
+        </div>
+        <div class="menu_section5">
+            <div class="parametar" onclick="prikaziSlike('prizemlje')">Prizemlje</div>
+            <div class="parametar" onclick="prikaziSlike('prviSprat')">Prvi Sprat</div>
+            <div class="parametar" onclick="prikaziSlike('drugiSprat')">Drugi Sprat</div>
+          </div>
+        
+          <div class="slike-container">
+            <div class="slike prizemlje">
+              <img src="img/osnova_aprtman_2.jpg" alt="Slika 1">
+              <img src="img/osnova_aprtman_2.jpg" alt="Slika 2">
+              <img src="img/osnova_aprtman_2.jpg" alt="Slika 3">
+              <img src="img/osnova_aprtman_2.jpg" alt="Slika 4">
+            </div>
+        
+            <div class="slike prviSprat" style="display: none;">
+              <img src="img/osnova_aprtman_2.jpg" alt="Slika 5">
+              <img src="slika6.jpg" alt="Slika 6">
+              
+            </div>
+        
+            <div class="slike drugiSprat" style="display: none;">
+              <img src="img/osnova_aprtman_2.jpg" alt="Slika 9">
+              <img src="img/osnova_aprtman_2.jpg" alt="Slika 10">
+              
+            </div>
+          </div>
+
+    </section>
+-->
+
+
+    <section class="section5">
+      <div class="galerija_ikonica">
+        <img src="img/galery.png" alt="">
+      </div>
+        <div class="naslov_sekcija3">
+            <h1>GALERIJA</h1>
+        </div>
+    </section>
+
+    <div class="container-galerija">
+      <div class="wrapper">
+          <i id="left" class="fa-solid fa-angle-left"></i>
+          <ul class="carousel">
+              <li class="card">
+                  <div class="img"><img src="img/Vila-Aleksandra-Jahorina.png" alt="img" draggable="false"></div>
+                  
+              </li>
+              <li class="card">
+                  <div class="img"><img src="img/Vila-Aleksandra-Galerija1.png" alt="img" draggable="false"></div>
+                  
+              </li>
+              <li class="card">
+                  <div class="img"><img src="img/Vila-Aleksandra-Galerija2.png" alt="img" draggable="false"></div>
+                 
+              </li>
+              <li class="card">
+                  <div class="img"><img src="img/Vila_aleksandra.jpg" alt="img" draggable="false"></div>
+                  
+              </li>
+              <li class="card">
+                  <div class="img"><img src="img/jahorina_Vila_Aleksandra_galerija.jpg" alt="img" draggable="false"></div>
+                  
+              </li>
+              <li class="card">
+                  <div class="img"><img src="img/Jahorina_Vila_Aleksandra_mrm_group.jpg" alt="img" draggable="false"></div>
+                  
+              </li>
+          </ul>
+          <i id="right" class="fa-solid fa-angle-right"></i>
+      </div>
+  </div>
+
+    
+    <section class="section6" id="kontakt">
+            <h1>KONTAKT</h1>
+            <div class="container-mladen">
+            <img src="img/Mladen.png" alt="">
+            <h3>Mladen Mlađo</h3>
+            <p>Možete nas kontaktirati na Viberu za više informacija o apartmanima.
+            </p>
+            <p>Mogu vam preporučiti i <span>agencije za iznajmljivanje apartmana</span> koje naši kupci koriste ukoliko se time planirate baviti.
+            </p>
+            <div class="container-viber-dugme">
+            <button onclick="otvoriViber()" class="viber-dugme"><i class="fa-brands fa-viber"></i>VIBER KONTAKT</button>
+            </div>
+          </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+          <div class="row gy-3">
+            <div class="custom-col">
+              <i class="bi bi-geo-alt icon"></i>
+              <div>
+                <h4>Adresa</h4>
+                <p>
+                  Trg Kralja Petra I Karađorđevića 10<br>
+                  75400 Zvornik<br>
+                </p>
+              </div>
+            </div>
+    
+            <div class="custom-col">
+              <i class="bi bi-telephone icon"></i>
+              <div>
+                <h4>Rezervacije</h4>
+                <p>
+                  <strong>Telefon:</strong> <a href="tel:+38765708766">+387 65 708 766</a><br>
+                  <strong>Email:</strong> <a href="mailto:prodaja@mrmgroup.net">prodaja@mrmgroup.net</a><br>
+                </p>
+              </div>
+            </div>
+    
+            <div class="custom-col">
+              <i class="bi bi-clock icon"></i>
+              <div>
+                <h4>Radno vrijeme</h4>
+                <p>
+                  <strong>Ponedeljak - Petak:</strong> 7:00 - 15:00;<br>
+                </p>
+              </div>
+            </div>
+    
+            <div class="custom-col">
+              <h4>Društvene mreže</h4>
+              <div class="social-links d-flex">
+                <a href="https://www.facebook.com/mrmgroup.jahorina" target="_blank" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/mrmgroup.jahorina/" target="_blank" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="mailto:abc@example.com"><i class="fa-regular fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="container">
+          <div class="copyright">
+            &copy; Copyright <strong><span>MRM GROUP</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Politika privatnosti <a href="politika.html">KLIKNI</a>
+          </div>
+        </div>
+      </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
