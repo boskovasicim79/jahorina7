@@ -145,7 +145,7 @@ header .contact p a{
     background-size: cover;
     overflow: hidden;
     position: relative;
-    background-image: url(/img/Jahorina_Vila_Aleksandra.jpg);
+    background-image: url('./img/Jahorina_Vila_Aleksandra.jpg');
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -753,7 +753,7 @@ color: #ee1e1e;
     /*SECTION 1*/
 
     .snow_wrap {
-        background-image: url(/img/Jahorina_Mobile.jpg);
+        background-image: url('./img/Jahorina_Mobile.jpg');
         background-size: cover; /* ili background-size: contain; */
         background-repeat: no-repeat;
         background-position: center;
@@ -850,7 +850,7 @@ color: #ee1e1e;
         right: 5%;
         width: 70px;
         height: 70px;
-        background: url(menu.png);
+        background: url('./menu.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: 35px;
@@ -858,7 +858,7 @@ color: #ee1e1e;
     }
 
     .toggle.active {
-        background: url(close.png);
+        background: url('./close.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: 25px;
